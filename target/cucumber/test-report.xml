@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.851928">
+<testcase classname="Customer Credit" name="AC1: Normal process with one relavant - spinsterhood" time="11.851928">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Automation Bank&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'&#10;System info: host: 'cheguo-PC', ip: '10.10.13.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)&#13;&#10;&#9;at cls.ui.model.selenium.customercredit.LaunchCreditPage.selectBank(LaunchCreditPage.java:104)&#13;&#10;&#9;at cls.ui.application.beforeloan.CustomerCreditStepdefs.enterCustomerDetailsInLaunchCreditPage(CustomerCreditStepdefs.java:88)&#13;&#10;&#9;at ✽.And Enter customer details in LaunchCredit page(src/test/resources/features/beforeloanmanagement/Step1-CustomerCredit/CustomerCredit.feature:33)&#13;&#10;"><![CDATA[Given Login to system for testing CustomerCreidt............................passed
+Given Navigate to Manage Customer Credit page...............................passed
+And Navigate to LaunchCredit page...........................................passed
+And Enter customer details in LaunchCredit page.............................failed
+When Click the submit button................................................skipped
+Then Click the confirm YES button...........................................skipped
+And Select a submitter......................................................skipped
+And Click the Final Confirm button..........................................skipped
+Given Click My Task panel...................................................skipped
+And Click My Task button....................................................skipped
+And Find my client..........................................................skipped
+And Click the operation button..............................................skipped
+And Enter details in EnterCredit page.......................................skipped
+When Click the submit button................................................skipped
+Then Click the confirm YES button...........................................skipped
+Given Click My Task panel...................................................skipped
+And Click My Task button....................................................skipped
+And Find my client..........................................................skipped
+And Click the operation button..............................................skipped
+When Click the submit button................................................skipped
+Then Click the confirm YES button...........................................skipped
+Then Check if customer credit successfully..................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Automation Bank
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'cheguo-PC', ip: '10.10.13.118', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at cls.ui.model.selenium.customercredit.LaunchCreditPage.selectBank(LaunchCreditPage.java:104)
+	at cls.ui.application.beforeloan.CustomerCreditStepdefs.enterCustomerDetailsInLaunchCreditPage(CustomerCreditStepdefs.java:88)
+	at ✽.And Enter customer details in LaunchCredit page(src/test/resources/features/beforeloanmanagement/Step1-CustomerCredit/CustomerCredit.feature:33)
+]]></failure>
+</testcase>
+</testsuite>

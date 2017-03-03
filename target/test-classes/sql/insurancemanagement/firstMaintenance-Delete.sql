@@ -1,0 +1,2 @@
+delete from loan_insurance_info_detail where loan_insurance_id in (select id from loan_insurance_info where project_id = '@parameter');#
+delete from loan_insurance_info where project_id = '@parameter';

@@ -1,0 +1,1 @@
+update document_deliver set file_sended = 0 where project_id ='@parameter'

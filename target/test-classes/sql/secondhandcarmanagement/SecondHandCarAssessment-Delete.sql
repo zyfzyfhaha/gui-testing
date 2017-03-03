@@ -1,0 +1,3 @@
+delete from business_object_process_info where business_object_id in (select id from second_hand_car_info where launch_user_name='朱云峰') and business_type in ('SECOND_HAND_CAR_ESTIMATE_FLOW','SECOND_HAND_CAR_TRANSFER_FLOW');#
+delete from business_object_process_status where business_object_id in (select id from second_hand_car_info where launch_user_name='朱云峰') and business_type_key in ('SECOND_HAND_CAR_ESTIMATE_FLOW','SECOND_HAND_CAR_TRANSFER_FLOW');#
+delete from second_hand_car_info where launch_user_name='朱云峰'

@@ -1,0 +1,2 @@
+delete from document_deliver_express_bill where id in (select bill_id from document_deliver_express_bill_list where project_id = '@parameter');#
+delete from document_deliver_express_bill_list where project_id = '@parameter'
